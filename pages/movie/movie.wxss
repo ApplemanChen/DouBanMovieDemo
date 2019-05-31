@@ -1,0 +1,39 @@
+/* pages/movie/movie.wxss */
+.meta,.summary{
+	display: flex;
+	flex-direction: column;
+	padding:40rpx 80rpx;
+}
+
+.meta .cover-image{
+	width: 100%;
+	height: 800rpx;
+}
+
+.meta .title{
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+	text-align: center;
+	font-size: 50rpx;
+	color:#222222;
+}
+
+.meta .rating,.meta .directors,.meta .casts{
+	font-size: 30rpx;
+	color:#999;
+}
+
+.meta .score{
+	font-weight: bold;
+	color: #f10000;
+}
+
+.summary .title{
+	font-weight: bold;
+	margin-bottom:20rpx;
+}
+
+.summary .content{
+	font-size: 30rpx;
+	color:#999;
+}

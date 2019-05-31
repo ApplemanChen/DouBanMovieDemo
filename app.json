@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/weekly/weekly",
+    "pages/movie/movie"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#000",
+    "backgroundColor": "black",
+    "list": [
+      {
+        "text": "推荐电影",
+        "iconPath": "images/bar1.png",
+        "selectedIconPath": "images/bar1_s.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "本周热映",
+        "iconPath": "images/bar2.png",
+        "selectedIconPath": "images/bar2_s.png",
+        "pagePath": "pages/weekly/weekly"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap97.json"
+}

@@ -1,0 +1,17 @@
+<!--pages/movie/movie.wxml-->
+<!-- 详情页 -->
+<scroll-view class="container" wx:if="{{isloaded}}" scroll-y="true">
+	<view class="meta">
+		<image class="cover-image" src="{{movie.images.large}}"></image>
+		<text class="title">{{movie.title}}({{movie.year}})</text>
+		<text class="rating">评分：<text class="score">{{movie.rating.average}}</text></text>
+		<text class="directors">导演：<text wx:for="{{movie.directors}}">{{item.name}} </text>
+		</text>
+		<text class="casts">主演：<text wx:for="{{movie.casts}}">{{item.name}} </text>
+		</text>
+	</view>
+	<view class="summary">
+		<text class="title">摘要：</text>
+		<text class="content">{{movie.summary}}</text>
+	</view>
+</scroll-view>
